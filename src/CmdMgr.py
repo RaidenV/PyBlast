@@ -40,6 +40,7 @@ class CmdMgr:
     def __initSer( self, args ):
         pass
 
+    # Send a message once
     def __oneshot( self, msg ):
         self.__lastsent = msg
         self.__protocol.send( msg )
