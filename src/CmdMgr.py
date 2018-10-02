@@ -6,6 +6,7 @@ from pymac  import Player
 class CmdMgr:
     """ Handles advanced manipulation of commands and macro player """
 
+    # added another comment
     def __init__( self ):
         self.__player = Player.Player()
         self.__protocol = None
